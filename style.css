@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(/font/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(/font/static/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/font/static/Montserrat-Bold.ttf);
+}
+* {
+    font-family: Montserrat-Regular;
+}
+body {
+    background-color: #33658A;
+    position: relative;
+}
+
+header {
+    margin: 60px 70px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+header .left_nav_con {
+    display: flex;
+    justify-content: space-between;
+}
+.nav_picture{
+    width: 70px;
+    height: 70px;
+}
+.nav_picture img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.nav_player{
+    display: flex;
+    align-items: center;
+}
+.nav_player .nav_track{
+    display: flex;
+    align-items: center;
+}
+
+.nav_player .nav_track span {
+    margin: 10%;
+}
+.nav_player .nav_track .span_name {
+    font-family: Montserrat-Medium;
+    font-size:larger;
+    color: #FFB09B;
+}
+.nav_player .nav_track .span_author {
+    font-family: Montserrat-Regular;
+    color: #FFE0D8;
+    opacity: 70%;
+}
+.nav_player .nav_track_manage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_player .nav_track_manage svg {
+    margin-left: 15px;
+
+}
